@@ -46,18 +46,18 @@ export const ExpenseTracker = () => {
     <>
       <div className="expense-tracker">
         <div className="container">
-          <h1> {name}'s Expense Tracker</h1>
+          <h1> {name}'s Expense Tracker </h1>
           <div className="balance">
-            <h3> Your Balance</h3>
+            <h3> Your Balance </h3>
             {balance >= 0 ? <h2> ${balance}</h2> : <h2> -${balance * -1}</h2>}
           </div>
           <div className="summary">
             <div className="income">
-              <h4> Income</h4>
+              <h4> Income/</h4>
               <p>${income}</p>
             </div>
             <div className="expenses">
-              <h4> Expenses</h4>
+              <h4> Expenses/</h4>
               <p>${expenses}</p>
             </div>
           </div>
